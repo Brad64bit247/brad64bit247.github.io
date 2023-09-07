@@ -1,0 +1,111 @@
+/* Reset default margin and padding */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #111111;
+}
+
+#header {
+  background-color: #252525;
+  width: 100%;
+  text-align: center;
+}
+
+#header h1 {
+  font-size: 60px;
+  padding: 2px 0 5px;
+  color: silver;
+}
+
+#roomSelection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#roomSelection > div {
+  margin: 25px;
+  flex: 1;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#roomSelection > a {
+	align: center;
+}
+
+.blogContainer > a > img {
+  width: 250px;
+  height: 200px;
+  
+}
+
+.blogContainer {
+  width: 350px;
+  height: 550px;
+  background-color: silver;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.divider {
+  background-color: #252525;
+  width: 100%;
+  height: 10px;
+}
+
+/* Blog Section */
+.blogBackground {
+  background-color: #444444;
+  margin: auto;
+  margin-top: 25px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.blogBackground > div {
+   margin: 25px;
+  flex: 1;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.blogBackground > h1 {
+	font-size: 70px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.content p {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.content h2 {
+  color: black;
+  font-size: 40px;
+  text-align: center;
+}
+
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .blogContainer,
+  .blogBackground,
+  .blogPost {
+    max-width: 100%;
+  }
+}
