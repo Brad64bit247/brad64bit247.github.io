@@ -15,7 +15,7 @@ html {
 }
 
 #header h1 {
-  font-size: 60px;
+  font-size: 80px;
   padding: 2px 0 5px;
   color: silver;
 }
@@ -41,6 +41,20 @@ html {
 	align: center;
 }
 
+#blogHeader {
+	background-color: #241c4d;
+	margin: auto;
+  margin-top: 25px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+   font-size: 40px;
+  padding: 2px 0 5px;
+  color: silver;
+  text-align: center;
+}
+
 .blogContainer > a > img {
   width: 250px;
   height: 200px;
@@ -50,9 +64,11 @@ html {
 .blogContainer {
   width: 350px;
   height: 550px;
-  background-color: silver;
+  background-color: gray;
+
   margin: 0 auto;
   margin-bottom: 30px;
+  Margin-top: 40px;
 }
 
 .divider {
@@ -63,7 +79,15 @@ html {
 
 /* Blog Section */
 .blogBackground {
-  background-color: #444444;
+  background-color: #11093b;
+  /* rainbow background */
+background: linear-gradient(71deg, rgba(87,19,133,1) 0%, rgba(84,34,201,0.8631827731092436) 36%, rgba(88,23,23,0.8519782913165266) 77%, rgba(112,98,14,1) 89%, rgba(129,32,255,0.8911939775910365) 100%);
+  
+  /* synthwave city scape
+  background-image: url("images/wp9119164.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  */
   margin: auto;
   margin-top: 25px;
   padding: 30px;
@@ -98,6 +122,7 @@ html {
   font-size: 40px;
   text-align: center;
 }
+
 
 
 
